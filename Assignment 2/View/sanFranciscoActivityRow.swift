@@ -8,13 +8,28 @@
 import SwiftUI
 
 struct sanFranciscoActivityRow: View {
+    
+    var sanFranciscoActivity: Activity
+    
+    // The first element of the chicagoActivities array shown in the initializer is being decalred here as a stored property
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        HStack {
+            
+            sanFranciscoActivity.image
+                .resizable()
+                .frame(width: 50, height: 50)
+   
+            Text(sanFranciscoActivity.name)
+            
+            Spacer()
+        }
     }
 }
 
 struct sanFranciscoActivityRow_Previews: PreviewProvider {
     static var previews: some View {
-        sanFranciscoActivityRow()
+        sanFranciscoActivityRow(sanFranciscoActivity: sanFranciscoActivities[0])
+            .previewLayout(.fixed(width: 300, height: 70))
     }
 }

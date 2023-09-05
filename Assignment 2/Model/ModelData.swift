@@ -12,7 +12,7 @@ var locations: [Location] = load("locationsData.json")
 
 var sanFranciscoActivities: [Activity] = load("sanFranciscoActivityData.json")
 
-var losAngelesActivities: [Activity] = load("loasAngelesActivityData.json")
+var losAngelesActivities: [Activity] = load("losAngelesActivityData.json")
 
 var newYorkCityActivities: [Activity] = load("newYorkCityActivityData.json")
 
