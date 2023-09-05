@@ -13,13 +13,16 @@ struct chicagoActivityRow: View {
     
     // The first element of the chicagoActivities array shown in the initializer is being decalred here as a stored property
     
-    
-    
-    
-    
     var body: some View {
         HStack {
+            
+            chicagoActivity.image
+                .resizable()
+                .frame(width: 50, height: 50)
+   
             Text(chicagoActivity.name)
+            
+            Spacer()
         }
     }
 }
@@ -27,6 +30,7 @@ struct chicagoActivityRow: View {
 struct chicagoActivityRow_Previews: PreviewProvider {
     static var previews: some View {
         chicagoActivityRow(chicagoActivity: chicagoActivities[0])
+            .previewLayout(.fixed(width: 300, height: 70))
         
         // The first element of the chicagoActivity array is being passed as an initializer
     }
