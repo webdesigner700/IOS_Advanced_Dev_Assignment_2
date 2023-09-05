@@ -10,7 +10,7 @@ import SwiftUI
 struct ActivityImage: View {
     var body: some View {
         
-        Image("goldenGateBridge")
+        Image("alcatrazIsland")
             .resizable()
             .frame(width: 300, height: 200)
             .clipShape(Circle())
