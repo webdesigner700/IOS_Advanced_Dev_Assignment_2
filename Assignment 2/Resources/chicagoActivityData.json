@@ -1,0 +1,53 @@
+[
+    {
+        "name": "Millenium Park",
+        "city": "Chicago",
+        "state": "Illinois",
+        "id": 1001,
+        "coordinates": {
+            "longitude": 87.6226,
+            "latitude": 41.8826
+        },
+        "description": "Millennium Park is a public park located in the Loop community area of Chicago, operated by the Chicago Department of Cultural Affairs. The park, opened in 2004 and intended to celebrate the third millennium, is a prominent civic center near the city's Lake Michigan shoreline that covers a 24.5-acre (9.9 ha) section of northwestern Grant Park. Featuring a variety of public art, outdoor spaces and venues, the park is bounded by Michigan Avenue, Randolph Street, Columbus Drive and East Monroe Drive. In 2017, Millennium Park was the top tourist destination in Chicago and in the Midwest, and placed among the top ten in the United States with 25 million annual visitors.",
+        "imageName": "milleniumPark"
+    },
+    
+    {
+        "name": "Willis Tower",
+        "city": "Chicago",
+        "state": "Illinois",
+        "id": 1002,
+        "coordinates": {
+            "longitude": 87.6359,
+            "latitude": 41.8789
+        },
+        "description": "The Willis Tower (originally the Sears Tower) is a 110-story, 1,451-foot (442.3 m) skyscraper in the Loop community area of Chicago in Illinois, United States. Designed by architect Bruce Graham and engineer Fazlur Rahman Khan of Skidmore, Owings & Merrill (SOM), it opened in 1973 as the world's tallest building, a title that it held for nearly 25 years. It is the third-tallest building in the Western Hemisphere, as well as the 23rd-tallest in the world. Each year, more than 1.7 million people visit the Skydeck observation deck, the highest in the United States, making it one of Chicago's most popular tourist destinations.",
+        "imageName": "willisTower"
+    },
+    
+    {
+        "name": "Field Museum",
+        "city": "Chicago",
+        "state": "Illinois",
+        "id": 1003,
+        "coordinates": {
+            "longitude": 87.6170,
+            "latitude": 41.8663
+        },
+        "description": "The Field Museum of Natural History (FMNH), also known as The Field Museum, is a natural history museum in Chicago, Illinois, and is one of the largest such museums in the world. The museum is popular for the size and quality of its educational and scientific programs,and its extensive scientific specimen and artifact collections. The permanent exhibitions, which attract up to 2 million visitors annually, include fossils, current cultures from around the world, and interactive programming demonstrating today's urgent conservation needs. The museum is named in honor of its first major benefactor, Marshall Field, the department-store magnate. The museum and its collections originated from the 1893 World's Columbian Exposition and the artifacts displayed at the fair.",
+        "imageName": "fieldMuseum"
+    },
+    
+    {
+        "name": "River Walk",
+        "city": "Chicago",
+        "state": "Illinois",
+        "id": 1004,
+        "coordinates": {
+            "longitude": 87.6226,
+            "latitude": 41.8884
+        },
+        "description": "The Chicago Riverwalk is a multi-use public space located on the south bank of the main branch of the Chicago River in Chicago, extending from Lake Michigan and DuSable Lake Shore Drive westward to Lake Street. The Chicago Riverwalk contains restaurants, bars, cafes, small parks, boat and kayak rentals, a Vietnam War memorial, and other amenities. Its final extent will be beyond Wolf Point Towers, northward to the planned Bally's casino near the intersection of Chicago Avenue and Halsted Street.",
+        "imageName": "riverWalk"
+    },
+]

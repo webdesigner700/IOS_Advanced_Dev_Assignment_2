@@ -16,8 +16,10 @@
 		A18F2AD12AA6CC460081553D /* ActivityImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = A18F2AD02AA6CC460081553D /* ActivityImage.swift */; };
 		A18F2AD32AA6D2750081553D /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A18F2AD22AA6D2750081553D /* MapView.swift */; };
 		A18F2AD52AA6DF450081553D /* sanFranciscoActivityData.json in Resources */ = {isa = PBXBuildFile; fileRef = A18F2AD42AA6DF440081553D /* sanFranciscoActivityData.json */; };
-		A18F2AD72AA6E67E0081553D /* ActivityData.swift in Sources */ = {isa = PBXBuildFile; fileRef = A18F2AD62AA6E67E0081553D /* ActivityData.swift */; };
+		A18F2AD72AA6E67E0081553D /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = A18F2AD62AA6E67E0081553D /* ModelData.swift */; };
 		A18F2AD92AA6EA840081553D /* losAngelesActivityData.json in Resources */ = {isa = PBXBuildFile; fileRef = A18F2AD82AA6EA830081553D /* losAngelesActivityData.json */; };
+		A18F2ADB2AA6EF8E0081553D /* newYorkCityActivityData.json in Resources */ = {isa = PBXBuildFile; fileRef = A18F2ADA2AA6EF8E0081553D /* newYorkCityActivityData.json */; };
+		A18F2ADD2AA6F4F50081553D /* chicagoActivityData.json in Resources */ = {isa = PBXBuildFile; fileRef = A18F2ADC2AA6F4F50081553D /* chicagoActivityData.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,8 +33,10 @@
 		A18F2AD02AA6CC460081553D /* ActivityImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityImage.swift; sourceTree = "<group>"; };
 		A18F2AD22AA6D2750081553D /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 		A18F2AD42AA6DF440081553D /* sanFranciscoActivityData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = sanFranciscoActivityData.json; sourceTree = "<group>"; };
-		A18F2AD62AA6E67E0081553D /* ActivityData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityData.swift; sourceTree = "<group>"; };
+		A18F2AD62AA6E67E0081553D /* ModelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
 		A18F2AD82AA6EA830081553D /* losAngelesActivityData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = losAngelesActivityData.json; sourceTree = "<group>"; };
+		A18F2ADA2AA6EF8E0081553D /* newYorkCityActivityData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = newYorkCityActivityData.json; sourceTree = "<group>"; };
+		A18F2ADC2AA6F4F50081553D /* chicagoActivityData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = chicagoActivityData.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,7 +93,7 @@
 			children = (
 				A18F2ACB2AA6C1280081553D /* Locations.swift */,
 				A18F2ACD2AA6C1820081553D /* Activities.swift */,
-				A18F2AD62AA6E67E0081553D /* ActivityData.swift */,
+				A18F2AD62AA6E67E0081553D /* ModelData.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -99,6 +103,8 @@
 			children = (
 				A18F2AD42AA6DF440081553D /* sanFranciscoActivityData.json */,
 				A18F2AD82AA6EA830081553D /* losAngelesActivityData.json */,
+				A18F2ADA2AA6EF8E0081553D /* newYorkCityActivityData.json */,
+				A18F2ADC2AA6F4F50081553D /* chicagoActivityData.json */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -179,6 +185,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				A18F2AC02AA6B7910081553D /* Preview Assets.xcassets in Resources */,
+				A18F2ADB2AA6EF8E0081553D /* newYorkCityActivityData.json in Resources */,
+				A18F2ADD2AA6F4F50081553D /* chicagoActivityData.json in Resources */,
 				A18F2AD52AA6DF450081553D /* sanFranciscoActivityData.json in Resources */,
 				A18F2AD92AA6EA840081553D /* losAngelesActivityData.json in Resources */,
 				A18F2ABD2AA6B7910081553D /* Assets.xcassets in Resources */,
@@ -194,7 +202,7 @@
 			files = (
 				A18F2AD12AA6CC460081553D /* ActivityImage.swift in Sources */,
 				A18F2AD32AA6D2750081553D /* MapView.swift in Sources */,
-				A18F2AD72AA6E67E0081553D /* ActivityData.swift in Sources */,
+				A18F2AD72AA6E67E0081553D /* ModelData.swift in Sources */,
 				A18F2ACE2AA6C1820081553D /* Activities.swift in Sources */,
 				A18F2ACC2AA6C1280081553D /* Locations.swift in Sources */,
 				A18F2ABB2AA6B78E0081553D /* ContentView.swift in Sources */,

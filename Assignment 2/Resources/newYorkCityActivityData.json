@@ -1,0 +1,54 @@
+[
+    {
+        "name": "Central Park",
+        "city": "New York City",
+        "state": "New York",
+        "id": 1001,
+        "coordinates": {
+            "longitude": 73.9656,
+            "latitude": 40.7826
+        },
+        "description": "Central Park is an urban park between the Upper West Side and Upper East Side neighborhoods of Manhattan in New York City, United States. It is the fifth-largest park in the city, containing 843 acres (341 ha), and the most visited urban park in the United States, with an estimated 42 million visitors annually as of 2016.",
+        "imageName": "centralPark"
+    },
+    
+    {
+        "name": "Empire State Building",
+        "city": "New York City",
+        "state": "New York",
+        "id": 1002,
+        "coordinates": {
+            "longitude": 73.9857,
+            "latitude": 40.7484
+        },
+        "description": "The Empire State Building is a 102-story[c] Art Deco skyscraper in Midtown Manhattan, New York City. The building was designed by Shreve, Lamb & Harmon and built from 1930 to 1931. Its name is derived from Empire State, the nickname of the state of New York. The building has a roof height of 1,250 feet (380 m) and stands a total of 1,454 feet (443.2 m) tall, including its antenna. The Empire State Building was the world's tallest building until the first tower of the World Trade Center was topped out in 1970; following the September 11 attacks in 2001, the Empire State Building was New York City's tallest building until it was surpassed in 2012 by One World Trade Center. As of 2022, the building is the seventh-tallest building in New York City, the ninth-tallest completed skyscraper in the United States, the 54th-tallest in the world, and the sixth-tallest freestanding structure in the Americas.",
+        "imageName": "empireStateBuilding"
+    },
+    
+    {
+        "name": "Statue of Liberty",
+        "city": "New York City",
+        "state": "New York",
+        "id": 1003,
+        "coordinates": {
+            "longitude": 74.0445,
+            "latitude": 40.6892
+        },
+        "description": "The Statue of Liberty (Liberty Enlightening the World; French: La Liberté éclairant le monde) is a colossal neoclassical sculpture on Liberty Island in New York Harbor in New York City, in the United States. The copper statue, a gift from the people of France, was designed by French sculptor Frédéric Auguste Bartholdi and its metal framework was built by Gustave Eiffel. The statue was dedicated on October 28, 1886.",
+        "imageName": "statueOfLiberty"
+    },
+    
+    {
+        "name": "Times Square",
+        "city": "New York City",
+        "state": "New York",
+        "id": 1004,
+        "coordinates": {
+            "longitude": 73.9855,
+            "latitude": 40.7580
+        },
+        "description": "Times Square is a major commercial intersection, tourist destination, entertainment hub, and neighborhood in Midtown Manhattan, New York City, United States. It is formed by the junction of Broadway, Seventh Avenue, and 42nd Street. Together with adjacent Duffy Square, Times Square is a bowtie-shaped plaza five blocks long between 42nd and 47th Streets.",
+        "imageName": "timesSquare"
+    },
+    
+]
