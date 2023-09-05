@@ -11,23 +11,45 @@ struct ContentView: View { // This structure conforms to the View protocol and d
     var body: some View {
         VStack {
             
+            MapView()
+                .frame(height: 300)
+                .ignoresSafeArea(edges: .top)
+            
+            ActivityImage()
+                .offset(y: -100)
+                .padding(.bottom, -100)
             
             VStack (alignment: .leading){
                 Text("Golden Gate Bridge")
-                    .font(.headline)
+                    .font(.title)
+                    .fontWeight(.bold)
                     
                 HStack {
                     Text("San Francisco")
-                        .font(.subheadline)
+                        .font(.title2)
                     
                     Spacer()
                     
                     Text("California")
-                        .font(.subheadline)
+                        .font(.title2)
+                    
                 }
+                
+                Divider()
+                
+                Text("About Golden Gate bridge")
+                    .font(.title3)
+                    
             }
             .padding()
+            
+            Spacer()
+            
+            // Here the Spacer() is added at the bottom to push the content to the top of the screen. The Vstack now has a MapView(), an ActivityImage(), a Vstack with the activity name, city, etc and then a spacer to cover the space until the bottom of the iphone
+            
+            
         }
+        
     }
 }
 
