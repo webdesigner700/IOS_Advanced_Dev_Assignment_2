@@ -7,6 +7,9 @@
 
 import Foundation
 
+
+var locations: [Location] = load("locationsData.json")
+
 var sanFranciscoActivities: [Activity] = load("sanFranciscoActivityData.json")
 
 var losAngelesActivities: [Activity] = load("loasAngelesActivityData.json")

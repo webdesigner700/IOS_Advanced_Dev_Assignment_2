@@ -20,6 +20,12 @@
 		A18F2AD92AA6EA840081553D /* losAngelesActivityData.json in Resources */ = {isa = PBXBuildFile; fileRef = A18F2AD82AA6EA830081553D /* losAngelesActivityData.json */; };
 		A18F2ADB2AA6EF8E0081553D /* newYorkCityActivityData.json in Resources */ = {isa = PBXBuildFile; fileRef = A18F2ADA2AA6EF8E0081553D /* newYorkCityActivityData.json */; };
 		A18F2ADD2AA6F4F50081553D /* chicagoActivityData.json in Resources */ = {isa = PBXBuildFile; fileRef = A18F2ADC2AA6F4F50081553D /* chicagoActivityData.json */; };
+		A18F2ADF2AA6FD6F0081553D /* locationsData.json in Resources */ = {isa = PBXBuildFile; fileRef = A18F2ADE2AA6FD6E0081553D /* locationsData.json */; };
+		A18F2AE12AA6FDDC0081553D /* LocationImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = A18F2AE02AA6FDDC0081553D /* LocationImage.swift */; };
+		A18F2AE32AA6FE1D0081553D /* chicagoActivityRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = A18F2AE22AA6FE1D0081553D /* chicagoActivityRow.swift */; };
+		A18F2AE52AA6FF080081553D /* losAngelesActivityRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = A18F2AE42AA6FF080081553D /* losAngelesActivityRow.swift */; };
+		A18F2AE72AA6FF1B0081553D /* newYorkCityActivityRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = A18F2AE62AA6FF1B0081553D /* newYorkCityActivityRow.swift */; };
+		A18F2AE92AA6FF2C0081553D /* sanFranciscoActivityRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = A18F2AE82AA6FF2C0081553D /* sanFranciscoActivityRow.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +43,12 @@
 		A18F2AD82AA6EA830081553D /* losAngelesActivityData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = losAngelesActivityData.json; sourceTree = "<group>"; };
 		A18F2ADA2AA6EF8E0081553D /* newYorkCityActivityData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = newYorkCityActivityData.json; sourceTree = "<group>"; };
 		A18F2ADC2AA6F4F50081553D /* chicagoActivityData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = chicagoActivityData.json; sourceTree = "<group>"; };
+		A18F2ADE2AA6FD6E0081553D /* locationsData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = locationsData.json; sourceTree = "<group>"; };
+		A18F2AE02AA6FDDC0081553D /* LocationImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationImage.swift; sourceTree = "<group>"; };
+		A18F2AE22AA6FE1D0081553D /* chicagoActivityRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = chicagoActivityRow.swift; sourceTree = "<group>"; };
+		A18F2AE42AA6FF080081553D /* losAngelesActivityRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = losAngelesActivityRow.swift; sourceTree = "<group>"; };
+		A18F2AE62AA6FF1B0081553D /* newYorkCityActivityRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = newYorkCityActivityRow.swift; sourceTree = "<group>"; };
+		A18F2AE82AA6FF2C0081553D /* sanFranciscoActivityRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sanFranciscoActivityRow.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +117,7 @@
 				A18F2AD82AA6EA830081553D /* losAngelesActivityData.json */,
 				A18F2ADA2AA6EF8E0081553D /* newYorkCityActivityData.json */,
 				A18F2ADC2AA6F4F50081553D /* chicagoActivityData.json */,
+				A18F2ADE2AA6FD6E0081553D /* locationsData.json */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -115,6 +128,11 @@
 				A18F2ABA2AA6B78E0081553D /* ContentView.swift */,
 				A18F2AD02AA6CC460081553D /* ActivityImage.swift */,
 				A18F2AD22AA6D2750081553D /* MapView.swift */,
+				A18F2AE02AA6FDDC0081553D /* LocationImage.swift */,
+				A18F2AE22AA6FE1D0081553D /* chicagoActivityRow.swift */,
+				A18F2AE42AA6FF080081553D /* losAngelesActivityRow.swift */,
+				A18F2AE62AA6FF1B0081553D /* newYorkCityActivityRow.swift */,
+				A18F2AE82AA6FF2C0081553D /* sanFranciscoActivityRow.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -188,6 +206,7 @@
 				A18F2ADB2AA6EF8E0081553D /* newYorkCityActivityData.json in Resources */,
 				A18F2ADD2AA6F4F50081553D /* chicagoActivityData.json in Resources */,
 				A18F2AD52AA6DF450081553D /* sanFranciscoActivityData.json in Resources */,
+				A18F2ADF2AA6FD6F0081553D /* locationsData.json in Resources */,
 				A18F2AD92AA6EA840081553D /* losAngelesActivityData.json in Resources */,
 				A18F2ABD2AA6B7910081553D /* Assets.xcassets in Resources */,
 			);
@@ -201,12 +220,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				A18F2AD12AA6CC460081553D /* ActivityImage.swift in Sources */,
+				A18F2AE32AA6FE1D0081553D /* chicagoActivityRow.swift in Sources */,
 				A18F2AD32AA6D2750081553D /* MapView.swift in Sources */,
+				A18F2AE72AA6FF1B0081553D /* newYorkCityActivityRow.swift in Sources */,
+				A18F2AE12AA6FDDC0081553D /* LocationImage.swift in Sources */,
 				A18F2AD72AA6E67E0081553D /* ModelData.swift in Sources */,
 				A18F2ACE2AA6C1820081553D /* Activities.swift in Sources */,
 				A18F2ACC2AA6C1280081553D /* Locations.swift in Sources */,
 				A18F2ABB2AA6B78E0081553D /* ContentView.swift in Sources */,
+				A18F2AE52AA6FF080081553D /* losAngelesActivityRow.swift in Sources */,
 				A18F2AB92AA6B78E0081553D /* Assignment_2App.swift in Sources */,
+				A18F2AE92AA6FF2C0081553D /* sanFranciscoActivityRow.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -1,0 +1,49 @@
+[
+    {
+        "name": "San Francisco",
+        "state": "California",
+        "id": 1001,
+        "coordinates": {
+            "longitude": 122.4194,
+            "latitude": 37.7749
+        },
+        "description": "San Francisco (/ˌsæn frənˈsɪskoʊ/ SAN frən-SISS-koh; Spanish for 'Saint Francis'), officially the City and County of San Francisco, is the commercial, financial, and cultural center of Northern California. The city proper is the fourth most populous city in California, with 808,437 residents, and the 17th most populous city in the United States as of 2022. The city covers a land area of 46.9 square miles (121 square kilometers) at the end of the San Francisco Peninsula, making it the second most densely populated large U.S. city after New York City and the fifth-most densely populated U.S. county, behind only four of the five New York City boroughs. Among the 91 U.S. cities proper with over 250,000 residents, San Francisco was ranked first by per capita income[25] and sixth by aggregate income as of 2021. Colloquial nicknames for San Francisco include Frisco, San Fran, The City, and SF.",
+        "imageName": "sanFrancisco"
+    },
+    
+    {
+        "name": "Los Angeles",
+        "state": "California",
+        "id": 1002,
+        "coordinates": {
+            "longitude": 118.2426,
+            "latitude": 34.0549
+        },
+        "description": "Los Angeles (US: /lɔːs ˈændʒələs/ i lawss AN-jəl-əs; Spanish: Los Ángeles [los ˈaŋxeles], lit. 'The Angels'), often referred to by its initials L.A.,[13] officially the City of Los Angeles, is the most populous city in the U.S. state of California. With roughly 3.9 million residents within the city limits as of 2020,[7] Los Angeles is the second-most populous city in the United States, behind only New York City; it is the commercial, financial and cultural center of the Southern California region. Los Angeles has a Mediterranean climate, an ethnically and culturally diverse population, in addition to a sprawling metropolitan area.",
+        "imageName": "losAngeles"
+    },
+    
+    {
+        "name": "New York City",
+        "state": "New York",
+        "id": 1003,
+        "coordinates": {
+            "longitude": 74.0060,
+            "latitude": 40.7128
+        },
+        "description": "New York, often called New York City or NYC, is the most populous city in the United States. With a 2020 population of 8,804,190 distributed over 300.46 square miles (778.2 km2), New York City is the most densely populated major city in the United States. The city is more than twice as populous as Los Angeles, the nation's second-largest city. New York City is situated at the southern tip of New York State. Situated on one of the world's largest natural harbors, New York City comprises five boroughs, each of which is coextensive with a respective county. The five boroughs, which were created in 1898 when local governments were consolidated into a single municipality, are: Brooklyn (Kings County), Queens (Queens County), Manhattan (New York County), the Bronx (Bronx County), and Staten Island (Richmond County). New York City is a global city and a cultural, financial, high-tech, entertainment, glamour, and media center with a significant influence on commerce, health care and scientific output in life sciences, research, technology, education, politics, tourism, dining, art, fashion, and sports. Home to the headquarters of the United Nations, New York is an important center for international diplomacy, and it is sometimes described as the world's most important city and the capital of the world.",
+        "imageName": "newYorkCity"
+    },
+    
+    {
+        "name": "Chicago",
+        "state": "Illinois",
+        "id": 1004,
+        "coordinates": {
+            "longitude": 87.6298,
+            "latitude": 41.8781
+        },
+        "description": "Chicago (/ʃɪˈkɑːɡoʊ/ i shih-KAH-goh, locally also /ʃɪˈkɔːɡoʊ/ shih-KAW-goh; Miami-Illinois: Shikaakwa; Ojibwe: Zhigaagong) is the most populous city in the U.S. state of Illinois and the third-most populous in the United States after New York City and Los Angeles. With a population of 2,746,388 in the 2020 census, it is also the most populous city in the Midwest. As the seat of Cook County, the second-most populous county in the U.S., Chicago is the center of the Chicago metropolitan area.",
+        "imageName": "chicago"
+    },
+]
