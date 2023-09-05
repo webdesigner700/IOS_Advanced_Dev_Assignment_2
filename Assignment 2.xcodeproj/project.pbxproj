@@ -17,6 +17,7 @@
 		A18F2AD32AA6D2750081553D /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A18F2AD22AA6D2750081553D /* MapView.swift */; };
 		A18F2AD52AA6DF450081553D /* sanFranciscoActivityData.json in Resources */ = {isa = PBXBuildFile; fileRef = A18F2AD42AA6DF440081553D /* sanFranciscoActivityData.json */; };
 		A18F2AD72AA6E67E0081553D /* ActivityData.swift in Sources */ = {isa = PBXBuildFile; fileRef = A18F2AD62AA6E67E0081553D /* ActivityData.swift */; };
+		A18F2AD92AA6EA840081553D /* losAngelesActivityData.json in Resources */ = {isa = PBXBuildFile; fileRef = A18F2AD82AA6EA830081553D /* losAngelesActivityData.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,7 @@
 		A18F2AD22AA6D2750081553D /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 		A18F2AD42AA6DF440081553D /* sanFranciscoActivityData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = sanFranciscoActivityData.json; sourceTree = "<group>"; };
 		A18F2AD62AA6E67E0081553D /* ActivityData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityData.swift; sourceTree = "<group>"; };
+		A18F2AD82AA6EA830081553D /* losAngelesActivityData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = losAngelesActivityData.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +98,7 @@
 			isa = PBXGroup;
 			children = (
 				A18F2AD42AA6DF440081553D /* sanFranciscoActivityData.json */,
+				A18F2AD82AA6EA830081553D /* losAngelesActivityData.json */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -177,6 +180,7 @@
 			files = (
 				A18F2AC02AA6B7910081553D /* Preview Assets.xcassets in Resources */,
 				A18F2AD52AA6DF450081553D /* sanFranciscoActivityData.json in Resources */,
+				A18F2AD92AA6EA840081553D /* losAngelesActivityData.json in Resources */,
 				A18F2ABD2AA6B7910081553D /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

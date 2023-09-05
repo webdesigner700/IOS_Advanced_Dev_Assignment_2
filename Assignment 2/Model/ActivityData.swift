@@ -9,6 +9,8 @@ import Foundation
 
 var sanFranciscoActivities: [Activity] = load("sanFranciscoActivityData.json")
 
+var losAngelesActivities: [Activity] = load("loasAngelesActivityData.json")
+
 // The load methods fetches JSON data with a given name from the app's main bundle
 
 // An array of activities for San Francisco is initialized from sanFraciscoActivityData.json

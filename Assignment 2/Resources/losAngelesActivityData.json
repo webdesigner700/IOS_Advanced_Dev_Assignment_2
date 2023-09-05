@@ -1,0 +1,54 @@
+[
+    {
+        "name": "Universal Studios Hollywood",
+        "city": "Los Angeles",
+        "state": "California",
+        "id": 1001,
+        "coordinates": {
+            "longitude": 118.3534,
+            "latitude": 34.1381
+        },
+        "description": "Universal Studios Hollywood is a film studio and theme park in the San Fernando Valley area of Los Angeles County, California. About 70% of the studio lies within the unincorporated county island known as Universal City while the rest lies within the city limits of Los Angeles, California. It is one of the oldest and most famous Hollywood film studios still in use. Its official marketing headline is The Entertainment Capital of LA.[2] It was initially created to offer tours of the real Universal Studios sets and is the first of many full-fledged Universal Studios Theme Parks located across the world.",
+        "imageName": "universalStudiosHollywood"
+    },
+    
+    {
+        "name": "Griffith Observatory",
+        "city": "Los Angeles",
+        "state": "California",
+        "id": 1002,
+        "coordinates": {
+            "longitude": 118.3004,
+            "latitude": 34.1184
+        },
+        "description": "Griffith Observatory is an observatory in Los Angeles, California, on the south-facing slope of Mount Hollywood in Griffith Park. It commands a view of the Los Angeles Basin including Downtown Los Angeles to the southeast, Hollywood to the south, and the Pacific Ocean to the southwest. The observatory is a popular tourist attraction with a close view of the Hollywood Sign and an extensive array of space and science-related displays. It is named after its benefactor, Griffith J. Griffith. Admission has been free since the observatory's opening in 1935, in accordance with the benefactor's will.",
+        "imageName": "griffithObservatory"
+    },
+    
+    {
+        "name": "Hollywood Sign",
+        "city": "Los Angeles",
+        "state": "California",
+        "id": 1003,
+        "coordinates": {
+            "longitude": 118.3125,
+            "latitude": 34.1341
+        },
+        "description": "The Hollywood Sign is an American landmark and cultural icon overlooking Hollywood, Los Angeles, California. Originally the Hollywoodland Sign, it is situated on Mount Lee, in the Beachwood Canyon area of the Santa Monica Mountains. Spelling out the word HOLLYWOOD in 50-foot-tall (15.2 m) white uppercase letters and 450 feet (137.2 m) long, it was originally erected in 1923 as a temporary advertisement for a local real estate development, but due to increasing recognition the sign was left up, and replaced in 1978 with a more durable all-steel structure.",
+        "imageName": "hollywoodSign"
+    },
+    
+    {
+        "name": "Peterson Automotive Museum",
+        "city": "Los Angeles",
+        "state": "California",
+        "id": 1004,
+        "coordinates": {
+            "longitude": 118.3614,
+            "latitude": 34.0620
+        },
+        "description": "The Petersen Automotive Museum is located on Wilshire Boulevard along Museum Row in the Miracle Mile neighborhood of Los Angeles. One of the world's largest automotive museums, the Petersen Automotive Museum is a nonprofit organization specializing in automobile history and related educational programs.",
+        "imageName": "petersonAutomotiveMuseum"
+    }
+    
+]
