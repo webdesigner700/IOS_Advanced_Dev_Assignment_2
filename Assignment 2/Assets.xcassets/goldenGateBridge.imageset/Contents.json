@@ -1,11 +1,11 @@
 {
   "images" : [
     {
-      "filename" : "Golden Gate Bridge.jpeg",
       "idiom" : "universal",
       "scale" : "1x"
     },
     {
+      "filename" : "goldenGateBridge 1.jpeg",
       "idiom" : "universal",
       "scale" : "2x"
     },

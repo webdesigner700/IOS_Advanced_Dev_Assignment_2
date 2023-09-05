@@ -9,21 +9,25 @@ import SwiftUI
 
 struct ContentView: View { // This structure conforms to the View protocol and describes the view's content and layout.
     var body: some View {
-        VStack (alignment: .leading){
-            Text("Golden Gate Bridge")
-                .font(.headline)
-                
-            HStack {
-                Text("San Francisco")
-                    .font(.subheadline)
-                
-                Spacer()
-                
-                Text("California")
-                    .font(.subheadline)
+        VStack {
+            
+            
+            VStack (alignment: .leading){
+                Text("Golden Gate Bridge")
+                    .font(.headline)
+                    
+                HStack {
+                    Text("San Francisco")
+                        .font(.subheadline)
+                    
+                    Spacer()
+                    
+                    Text("California")
+                        .font(.subheadline)
+                }
             }
+            .padding()
         }
-        .padding()
     }
 }
 
