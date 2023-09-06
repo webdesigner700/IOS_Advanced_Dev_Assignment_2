@@ -14,6 +14,7 @@ struct sanFranciscoActivityRow: View {
     // The first element of the chicagoActivities array shown in the initializer is being decalred here as a stored property
     
     var body: some View {
+        
         HStack {
             
             sanFranciscoActivity.image

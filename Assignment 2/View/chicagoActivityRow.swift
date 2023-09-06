@@ -29,6 +29,7 @@ struct chicagoActivityRow: View {
 
 struct chicagoActivityRow_Previews: PreviewProvider {
     static var previews: some View {
+        
         chicagoActivityRow(chicagoActivity: chicagoActivities[0])
             .previewLayout(.fixed(width: 300, height: 70))
         

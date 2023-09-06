@@ -8,6 +8,7 @@
 import SwiftUI
 
 struct ActivityImage: View {
+    
     var body: some View {
         
         Image("alcatrazIsland")
