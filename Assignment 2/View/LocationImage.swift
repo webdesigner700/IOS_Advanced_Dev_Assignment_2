@@ -8,13 +8,24 @@
 import SwiftUI
 
 struct LocationImage: View {
+    
+    var image: Image
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        
+        image
+            .resizable()
+            .frame(width: 300, height: 200)
+            .clipShape(Circle())
+            .overlay {
+                Circle().stroke(.white, lineWidth: 5)
+            }
+            .shadow(radius: 7)
     }
 }
 
 struct LocationImage_Previews: PreviewProvider {
     static var previews: some View {
-        LocationImage()
+        LocationImage(image: Image("sanFrancisco"))
     }
 }

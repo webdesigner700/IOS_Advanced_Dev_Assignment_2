@@ -27,7 +27,7 @@ struct Activity: Hashable, Codable, Identifiable {
     
     private var coordinates: Coordinates
     
-    var locationCoordinate: CLLocationCoordinate2D {
+    var activityCoordinate: CLLocationCoordinate2D {
             CLLocationCoordinate2D(
                 latitude: coordinates.latitude,
                 longitude: coordinates.longitude

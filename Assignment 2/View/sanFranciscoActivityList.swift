@@ -8,15 +8,29 @@
 import SwiftUI
 
 struct sanFranciscoActivityList: View {
+    
     var body: some View {
         
         // Here, a list is created that displays the elements of a collection of data and a closure that provides a view for each element in the collection
         
         // The list transforms each element in the collection into a child view by using the supplied closure
         
-        List(sanFranciscoActivities) {
-            sanFranciscoActivity in sanFranciscoActivityRow(sanFranciscoActivity: sanFranciscoActivity)
+        NavigationView {
+            
+            List(sanFranciscoActivities) { sanFranciscoActivity in
+                
+                NavigationLink {
+                    sanFranciscoActivityDetail(sanFranciscoActivity: sanFranciscoActivity) // The activityDetail view that shows up is wrapped in a NavigationLink
+                } label: {
+                    sanFranciscoActivityRow(sanFranciscoActivity: sanFranciscoActivity)
+                    
+                    // The label for this navigation link is the chicagoActivityRow
+                }
+                
+            // The returned row is wrapped in a NvigationLink, specifying the ActivityDetail view as the destination
+            }
         }
+        .navigationTitle("San Francisco Activities")
         
         // The chicagoActivities array is passed as the List initializer. Lists work with Identificable data.
         

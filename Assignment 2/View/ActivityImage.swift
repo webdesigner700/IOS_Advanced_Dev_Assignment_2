@@ -9,9 +9,11 @@ import SwiftUI
 
 struct ActivityImage: View {
     
+    var image: Image // A stored image property is added
+    
     var body: some View {
         
-        Image("alcatrazIsland")
+        image
             .resizable()
             .frame(width: 300, height: 200)
             .clipShape(Circle())
@@ -24,6 +26,6 @@ struct ActivityImage: View {
 
 struct ActivityImage_Previews: PreviewProvider {
     static var previews: some View {
-        ActivityImage()
+        ActivityImage(image: Image("goldenGateBridge"))
     }
 }

@@ -10,9 +10,22 @@ import SwiftUI
 struct newYorkCityActivityList: View {
     var body: some View {
         
-        List(newYorkCityActivities) {
-            newYorkCityActivity in newYorkCityActivityRow(newYorkCityActivity: newYorkCityActivity)
+        NavigationView {
+            
+            List(newYorkCityActivities) { newYorkCityActivity in
+                
+                NavigationLink {
+                    newYorkCityActivityDetail(newYorkCityActivity: newYorkCityActivity) // The activityDetail view that shows up is wrapped in a NavigationLink
+                } label: {
+                    newYorkCityActivityRow(newYorkCityActivity: newYorkCityActivity)
+                    
+                    // The label for this navigation link is the chicagoActivityRow
+                }
+                
+            // The returned row is wrapped in a NvigationLink, specifying the ActivityDetail view as the destination
+            }
         }
+        .navigationTitle("New York City Activities")
     }
 }
 
