@@ -13,7 +13,8 @@ struct locationDetail: View {
     
     var body: some View {
         
-        ScrollView {
+        NavigationView {
+            
             VStack {
                 
                 MapView(coordinate: location.locationCoordinate)
@@ -42,13 +43,29 @@ struct locationDetail: View {
                     }
                     
                     Spacer()
-
-                    
-                    Button(action: {
                         
-                    }) {
-                        Text("Show Activities")
+                    NavigationLink {
+                        if (location.name == "San Francisco") {
+                            sanFranciscoActivityList()
+                        }
+                        else if (location.name == "Los Angeles") {
+                            losAngelesActivityList()
+                        }
+                        else if (location.name == "Chicago") {
+                            chicagoActivityList()
+                        }
+                        else if (location.name == "New York City") {
+                            newYorkCityActivityList()
+                        }
+                    } label: {
+                        Button("Show Activities") {
+                                
+                        }
+                        .offset(x: 90)
+                        .contentShape(Rectangle())
+                        .buttonStyle(.bordered)
                     }
+                    // Our NavigationLink will not function without the NavigationView
                     
                     Divider()
                     

@@ -52,8 +52,6 @@ struct losAngelesActivityDetail: View {
             
             // Here the Spacer() is added at the bottom to push the content to the top of the screen. The Vstack now has a MapView(), an ActivityImage(), a Vstack with the activity name, city, etc and then a spacer to cover the space until the bottom of the iphone
         }
-        .navigationTitle(losAngelesActivity.name)
-        .navigationBarTitleDisplayMode(.inline)
     }
 }
 

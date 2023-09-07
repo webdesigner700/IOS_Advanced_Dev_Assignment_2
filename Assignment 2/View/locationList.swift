@@ -14,23 +14,23 @@ struct locationList: View {
         // Here, a list is created that displays the elements of a collection of data and a closure that provides a view for each element in the collection
         
         // The list transforms each element in the collection into a child view by using the supplied closure
-        
-        NavigationView {
             
-            List(locations) { location in
+            NavigationView {
                 
-                NavigationLink {
-                    locationDetail(location: location) // The activityDetail view that shows up is wrapped in a NavigationLink
-                } label: {
-                    locationRow(location: location)
+                List(locations) { location in
                     
-                    // The label for this navigation link is the chicagoActivityRow
+                    NavigationLink {
+                        locationDetail(location: location) // The activityDetail view that shows up is wrapped in a NavigationLink
+                    } label: {
+                        locationRow(location: location)
+                        
+                        // The label for this navigation link is the chicagoActivityRow
+                    }
+                    
+                // The returned row is wrapped in a NvigationLink, specifying the ActivityDetail view as the destination
                 }
-                
-            // The returned row is wrapped in a NvigationLink, specifying the ActivityDetail view as the destination
+                .navigationTitle("Locations")
             }
-        }
-        .navigationTitle("Locations")
     }
 }
 

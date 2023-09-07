@@ -29,8 +29,8 @@ struct sanFranciscoActivityList: View {
                 
             // The returned row is wrapped in a NvigationLink, specifying the ActivityDetail view as the destination
             }
+            .navigationTitle("San Francisco Activities")
         }
-        .navigationTitle("San Francisco Activities")
         
         // The chicagoActivities array is passed as the List initializer. Lists work with Identificable data.
         
